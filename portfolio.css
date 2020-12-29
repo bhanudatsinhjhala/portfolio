@@ -61,7 +61,25 @@ h2{
   margin: auto 20px;
 }
 
+/******************** chatbot   ******************/
+.chatbot{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: fixed;
+  right: 3vmin;
+  top: 18vmin;
+  margin: auto;
+  background-image: url("pics/background.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
 
+.open{
+  position: fixed;
+  right: 3vmin;
+}
+/******************** chatbot   ******************/
 /******************** Welcome-Section   ******************/
 
 
@@ -123,6 +141,7 @@ h2{
   background: #303841;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
+  height: 55vh;
 }
 
 .code {
@@ -144,7 +163,6 @@ h2{
 .project-title {
   font-size: 20px;
   padding: 5px 5px;
-  height: 70vh;
 }
 
 .btn-show-all {
@@ -261,6 +279,11 @@ h2{
 h1{
   font-size: 40px;
 }
+
+.chatbot{
+  right: 7vmin;
+  top: 18vmin;
+}
   .passion{
     font-size: 28px;
   }
@@ -280,6 +303,12 @@ h1{
   body{
     line-height: 1.4;
   }
+
+  .chatbot{
+    right: 7vmin;
+    top: 22vmin;
+  }
+
   .nav-bar{
     justify-content: center;
   }
@@ -355,5 +384,10 @@ h1{
   .social{
     font-size: 15px;
     display: block;
+  }
+
+  .chatbot{
+    right: 7vmin;
+    top: 25vmin;
   }
 }
